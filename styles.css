@@ -1,7 +1,30 @@
-import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 :root {
-  --cor-principal: #6e859f;
-  --cor-secundaria: #284260;
-  --cor-destaque: #c92bfc;
+  --cor-principal:#0c8eb6;
+  --cor-secundaria:#77a7eb;
+  --cor-destaque:#0400ff;
+}
+body {
+    background-image: url(img/fundo.jpg);
+    background-size: cover;
+    font-family: 'Bebas Neue', sans-serif;
+    color: var(--cor-principal);
+}
+
+h1, h2, h5 {
+    color: var(--cor-secundaria);
+    font-weight: 700;
+}
+
+.lead, .btn-link {
+    color: var(--cor-destaque);
+    font-weight: 700;
+}
+
+a, .btn-link:hover {
+    color: var(--cor-principal)
+}
+
+a:hover{
+    color: var(--cor-destaque);
 }
